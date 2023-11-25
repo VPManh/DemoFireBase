@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:padding="20dp"
+        android:id="@+id/imgHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:hint="Name"
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgHinh"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Mô tả"
+        android:id="@+id/tx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_name"
+        android:layout_toRightOf="@id/imgHinh"/>
+
+</RelativeLayout>
